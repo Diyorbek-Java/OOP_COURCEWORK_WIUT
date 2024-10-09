@@ -1,4 +1,4 @@
-package Task1;
+package Task1AndTask2;
 
 public class Main {
     public static void main(String[] args) {
@@ -16,7 +16,7 @@ public class Main {
             System.out.println("Total number of Products is: "+shoppingCart.numberOfProduct());
             System.out.println();
         }else {
-            System.out.println(laptop.getName()+"unsuccessfully added");
+            System.out.println(laptop.getName()+" unsuccessfully added");
         }
         if (shoppingCart.addProduct(phone)){
             System.out.println(phone.getName()+" successfully added");
@@ -24,7 +24,7 @@ public class Main {
             System.out.println("Total number of Products is: "+shoppingCart.numberOfProduct());
             System.out.println();
         }else {
-            System.out.println(phone.getName()+"unsuccessfully added");
+            System.out.println(phone.getName()+" unsuccessfully added");
         }
         if (shoppingCart.addProduct(watch)){
             System.out.println(watch.getName()+" successfully added");
@@ -32,7 +32,7 @@ public class Main {
             System.out.println("Total number of Products is: "+shoppingCart.numberOfProduct());
             System.out.println();
         }else
-            System.out.println(watch.getName()+"unsuccessfully added");
+            System.out.println(watch.getName()+" unsuccessfully added");
 
         if (shoppingCart.addProduct(noteBook)){
             System.out.println(noteBook.getName()+" successfully added");
@@ -40,7 +40,7 @@ public class Main {
             System.out.println("Total number of Products is: "+shoppingCart.numberOfProduct());
             System.out.println();
         }else
-            System.out.println(noteBook.getName()+"unsuccessfully added");
+            System.out.println(noteBook.getName()+" unsuccessfully added");
 
         // Removing process
         if (shoppingCart.removeProduct(laptop)){
@@ -49,7 +49,7 @@ public class Main {
             System.out.println("Total number of Products is: "+shoppingCart.numberOfProduct());
             System.out.println();
         }else {
-            System.out.println(laptop.getName()+"not is product list");
+            System.out.println(laptop.getName()+" not is product list");
         }
         if (shoppingCart.removeProduct(phone)){
             System.out.println(phone.getName()+" successfully removed");
@@ -58,7 +58,7 @@ public class Main {
             System.out.println("Total number of Products is: "+shoppingCart.numberOfProduct());
             System.out.println();
         }else {
-            System.out.println(phone.getName()+"not is product list");
+            System.out.println(phone.getName()+" not is product list");
         }
         if (shoppingCart.removeProduct(watch)){
             System.out.println(watch.getName()+" successfully removed");
@@ -66,7 +66,7 @@ public class Main {
             System.out.println("Total number of Products is: "+shoppingCart.numberOfProduct());
             System.out.println();
         }else {
-            System.out.println(watch.getName()+"not is product list");
+            System.out.println(watch.getName()+" not is product list");
         }
         if (shoppingCart.removeProduct(pencil)){
             System.out.println(pencil.getName()+" successfully removed");
@@ -74,7 +74,7 @@ public class Main {
             System.out.println("Total number of Products is: "+shoppingCart.numberOfProduct());
             System.out.println();
         }else {
-            System.out.println(pencil.getName()+"not is product list");
+            System.out.println(pencil.getName()+" not is product list");
         }
 
         System.out.println("Total Cost of Products is: "+shoppingCart.getTotalCost()+" $");

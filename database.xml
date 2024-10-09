@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><products>
+    <product>
+        <name>Laptop</name>
+        <price>1200.00</price>
+    </product>
+    <product>
+        <name>Smartphone Pro</name>
+        <price>950.00</price>
+    </product>
+    <product>
+        <name>NoteBook</name>
+        <price>0.51</price>
+    </product>
+<product><name>NoteBook</name><price>0.51</price></product></products>
